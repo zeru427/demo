@@ -13,9 +13,9 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
-	@GetMapping()
+	@GetMapping("guest")
 	public String guest(){
-		return "Hello Guest";
+		return "Hello Guest I make some change";
 	}
 
 }
